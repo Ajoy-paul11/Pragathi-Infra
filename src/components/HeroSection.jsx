@@ -3,7 +3,7 @@ import React from "react";
 function HeroSection() {
   return (
     <header>
-      <section className="relative h-[85vh] min-h-[600px]">
+      <section className="relative h-[90vh] min-h-[600px]">
         <img
           src={
             "https://ik.imagekit.io/ajoy/hero-image-pragathi?updatedAt=1744898791054"
@@ -13,7 +13,7 @@ function HeroSection() {
         />
         <img
           src={
-            "https://ik.imagekit.io/ajoy/mobile-view-pragathi-infra.jpg?updatedAt=1744898939595"
+            "https://ik.imagekit.io/ajoy/mobile-logo.jpg?updatedAt=1744987421815"
           }
           className="md:hidden w-full h-full"
           alt="background-image"

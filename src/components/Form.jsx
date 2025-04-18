@@ -69,7 +69,7 @@ function Form() {
           <input type="hidden" {...register("subject")} />
           <input
             type="hidden"
-            value="Pragathi Reality"
+            value="Pragathi Infra Realty"
             {...register("from_name")}
           />
           <Fieldset
