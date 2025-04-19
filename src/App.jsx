@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import '@mantine/core/styles.css';
 import { MantineProvider } from '@mantine/core';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
     <>
       <BrowserRouter>
       <MantineProvider>
+        <ToastContainer />
         <Navbar />
         <Home />
         <Footer />
